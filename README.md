@@ -25,3 +25,7 @@ float decimal = 0.5;
 
 Horizontal line above
 
+- Item 1
+- Item 2
+- Item 3
+
