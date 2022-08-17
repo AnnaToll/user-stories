@@ -16,3 +16,6 @@ float decimal = 0.5;
 |---|---|
 |Text|Text|
 |Text|Text|
+
+```
+This is **bold text** and this is *italic text*.
