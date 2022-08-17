@@ -19,3 +19,5 @@ float decimal = 0.5;
 
 **This is** bold and *this is* italic
 
+:star: Gold star
+
