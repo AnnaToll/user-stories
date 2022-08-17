@@ -18,6 +18,6 @@ float decimal = 0.5;
 |Text|Text|
 
 ```
-This is **bold text** and this is *italic text*.
+This is __bold text__ and this is _italic text_.
 
 ```
