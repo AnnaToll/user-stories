@@ -1,5 +1,4 @@
 # Rubrik
-
 ```javascript
-const seven = 5+2;
+const 7 = 5+2;
 ```
