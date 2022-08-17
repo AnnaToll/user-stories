@@ -17,7 +17,5 @@ float decimal = 0.5;
 |Text|Text|
 |Text|Text|
 
-```
-This is __bold text__ and this is _italic text_.
+**This is** bold and *this is* italic
 
-```
