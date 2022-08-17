@@ -3,6 +3,6 @@
 let num = 7;
 ```
 
-```java
+```JAVA
 float decimal = 0.5;
 ```
