@@ -14,5 +14,5 @@ float decimal = 0.5;
 
 |Headline|Headline|
 |---|---|
-|text|txt|
-|text|text|
+|Text|Text|
+|Text|Text|
