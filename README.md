@@ -19,3 +19,5 @@ float decimal = 0.5;
 
 ```
 This is **bold text** and this is *italic text*.
+
+```
