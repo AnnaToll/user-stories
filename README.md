@@ -12,7 +12,7 @@ float decimal = 0.5;
 
 [Visit google](https://www.google.com)
 
-| healine 1 | Headline 2 |
+| Headline | Headline|
 |---|---|
-| text | text |
-| text | text |
+|Text|Text|
+|text|Text|
