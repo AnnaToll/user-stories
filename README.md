@@ -1,4 +1,4 @@
 # Rubrik
 ```javascript
-const 7 = 5+2;
+let num = 7;
 ```
