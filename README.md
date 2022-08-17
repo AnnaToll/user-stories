@@ -21,3 +21,7 @@ float decimal = 0.5;
 
 :star: Gold star
 
+---
+
+Horizontal line above
+
