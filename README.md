@@ -73,6 +73,6 @@ classDiagram
         +bool is_wild
         +run()
     }
-   ```
+ ```
 
-   ==This== is a higlighted word.
+`This` is a highlighted word. 
