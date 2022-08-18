@@ -74,3 +74,5 @@ classDiagram
         +run()
     }
    ```
+
+   ==This== is a higlighted word.
