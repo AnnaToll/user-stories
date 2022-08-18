@@ -52,21 +52,25 @@ erDiagram
 ```
 
 ```mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
     }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
+    class Fish{
+        -int sizeInFeet
+        -canEat()
     }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
+    class Zebra{
+        +bool is_wild
+        +run()
     }
-```
+   ```
