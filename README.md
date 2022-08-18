@@ -75,4 +75,4 @@ classDiagram
     }
  ```
 
-`This` is a highlighted word. 
+`This` is a highlighted word.
