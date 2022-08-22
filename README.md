@@ -1,4 +1,16 @@
-# Rubrik
+# Git playground
+## Diagram JWT
+```mermaid
+sequenceDiagram
+	Client-->>Server: Wants to autenticate, sends over email and password.
+	Note right of Server: Checks if email and password matches. If so, creates a JWT with necessary user and token information, encrypted with secret key.
+	Server->>Client: Sends back encrypted JWT token
+	Note left of Client: Stores JWT in browser.
+	Client-->>Server: Request access to webpage
+	Note right of Server: Authorizes by checking if header and payload matches signature of recieved JWT token when encrypted with secret key.
+	Server->>Client: If authorized, sends back requested files (webpage).
+	
+```
 ```javascript
 let num = 7;
 ```
@@ -83,3 +95,4 @@ sequenceDiagram
     John-->>Alice: Great!
     Alice-)John: See you later!
 ```
+
