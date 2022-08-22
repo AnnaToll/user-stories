@@ -3,12 +3,12 @@
 ```mermaid
 sequenceDiagram
 	Client-->>Server: Wants to autenticate,<br>sends over email and password
-	Note right of Server: Checks if email and password matches.<br>If so, creates a JWT with necessary user and<br> token information, encrypted with secret key.
+	Note right of Server: Checks if email and password<br>matches. If so, creates a JWT with <br> necessary user and token information,<br>encrypted with secret key.
 	Server->>Client: Sends back encrypted JWT
 	Note left of Client: Stores JWT in browser.
 	Client-->>Server: Request access to webpage
-	Note right of Server: Authorizes by checking if header and payload matches signature of recieved JWT when encrypted with secret key.
-	Server->>Client: If authorized, sends back requested files
+	Note right of Server: Authorizes by checking if<br>header and payload matches<br>signature of recieved JWT when encrypted<br>with secret key.
+	Server->>Client: If authorized,<br>sends back requested files
 	
 ```
 ```javascript
